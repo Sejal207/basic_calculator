@@ -47,3 +47,34 @@ form .display input{
 form input.equal{
     width: 145px;
 }
+@media(max-width: 600px)
+{
+    .calculator{
+        background-color: rgb(41, 64, 63);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .calculator form input{
+        border:0;
+        outline: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(255, 255, 255, 0.1);
+        background: black;
+        font-size: 12px;
+        color: #fff;
+        cursor: pointer;
+        margin: 5px;
+    
+    }
+    form input.equal{
+        width: 120px;
+    }
+    form .display input{
+        text-align: right;
+        flex: 1;
+        font-size: 28pxpx;
+        background-color: black;
+    }
+}
